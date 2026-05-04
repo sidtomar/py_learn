@@ -42,8 +42,8 @@ name_entry.pack(pady=20)
 name_entry.bind("<FocusIn>", clear_placeholder)
 name_entry.bind("<FocusOut>", add_placeholder)
 
-# Create the Submit button and connect it to the greeting function.
-button = tk.Button(root, text="Submit", command=show_greeting)
+# Create the Enter button and connect it to the greeting function.
+button = tk.Button(root, text="Enter", command=show_greeting)
 button.pack(pady=10)
 
 # Create a label that will show validation messages or the greeting.
